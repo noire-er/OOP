@@ -34,7 +34,7 @@ class VirtualPet:
 # (3) sleep() - let the pet sleep to restore energy by increasing the energy by 10.
 
     def __str__(self):
-        print(f"{self.name} with {self.energy} energy points and {self.hunger} hunger level")
+        return f"{self.name} with {self.energy} energy points and {self.hunger} hunger level"
 # (4) __str__ - returns the details of the pet in the format "pet_name with x energy points and y hunger level", 
 #     e.g., Timmy with 100 energy points and 0 hunger level
 
